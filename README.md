@@ -35,8 +35,8 @@ The program needed to:
 The logic had to follow these rules:
 
 - **Falsy distance** → print `False`  
-- **≤ 1 mile** → print `True` only if **not raining**  
-- **> 1 and ≤ 6 miles** → print `True` only if **has bike AND not raining**  
+- **< 1 mile** → print `True` only if **not raining**  
+- **> 1 and < 6 miles** → print `True` only if **has bike AND not raining**  
 - **> 6 miles** → print `True` if **has car OR has ride-share app**  
 
 ### 4. Pass All 24 Tests
